@@ -1,6 +1,6 @@
 
-set(ROOT_DIRECTORY "/home/vdev/git/ViennaGrid")
-set(CTEST_SOURCE_DIRECTORY "${ROOT_DIRECTORY}/viennagrid-dev")
+set(ROOT_DIRECTORY "/home/vdev/git/ViennaMesh")
+set(CTEST_SOURCE_DIRECTORY "${ROOT_DIRECTORY}/viennamesh-dev")
 set(CTEST_CMAKE_GENERATOR "Unix Makefiles")
 set(CTEST_BUILD_CONFIGURATION "Debug")
 set(CTEST_BUILD_OPTIONS "")
@@ -14,4 +14,4 @@ set(WITH_MEMCHECK FALSE)
 set(WITH_COVERAGE FALSE)
 
 ########################################################################
-include(${ROOT_DIRECTORY}/viennagrid-tests/ctestscript-common.cmake)
+include(${ROOT_DIRECTORY}/viennamesh-tests/ctestscript-common.cmake)

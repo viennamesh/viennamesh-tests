@@ -1,6 +1,6 @@
 
-set(ROOT_DIRECTORY "/Users/vdev/git/ViennaGrid")
-set(CTEST_SOURCE_DIRECTORY "${ROOT_DIRECTORY}/viennagrid-dev")
+set(ROOT_DIRECTORY "/Users/vdev/git/ViennaMesh")
+set(CTEST_SOURCE_DIRECTORY "${ROOT_DIRECTORY}/viennamesh-dev")
 set(CTEST_CMAKE_GENERATOR "Unix Makefiles")
 set(CTEST_BUILD_CONFIGURATION "Release")
 set(CTEST_BUILD_OPTIONS "")
